@@ -1,0 +1,184 @@
+{
+  "timestamp": "2025-09-14T12:50:53.300940",
+  "summary": {
+    "total_tests": 31,
+    "passed_tests": 24,
+    "failed_tests": 7,
+    "success_rate": 77.41935483870968
+  },
+  "test_results": {
+    "framework_setup": [
+      {
+        "name": "Project Structure",
+        "status": "PASS",
+        "message": "All required directories exist"
+      },
+      {
+        "name": "Required Files",
+        "status": "PASS",
+        "message": "All required files exist"
+      },
+      {
+        "name": "Python Packages",
+        "status": "PASS",
+        "message": "All required packages installed"
+      }
+    ],
+    "page_objects": [
+      {
+        "name": "Base Page Class",
+        "status": "PASS",
+        "message": "BasePage class imported successfully"
+      },
+      {
+        "name": "HomePage Class",
+        "status": "FAIL",
+        "message": "Error: No module named 'tests.pages.homepage_page'"
+      },
+      {
+        "name": "LoginPage Class",
+        "status": "FAIL",
+        "message": "Error: No module named 'tests.pages.loginpage_page'"
+      },
+      {
+        "name": "ProductPage Class",
+        "status": "FAIL",
+        "message": "Error: No module named 'tests.pages.productpage_page'"
+      },
+      {
+        "name": "CartPage Class",
+        "status": "FAIL",
+        "message": "Error: No module named 'tests.pages.cartpage_page'"
+      },
+      {
+        "name": "CheckoutPage Class",
+        "status": "FAIL",
+        "message": "Error: No module named 'tests.pages.checkoutpage_page'"
+      },
+      {
+        "name": "Page Object Methods",
+        "status": "PASS",
+        "message": "HomePage has 71 methods"
+      }
+    ],
+    "data_management": [
+      {
+        "name": "DataUtils Class",
+        "status": "PASS",
+        "message": "DataUtils imported and instantiated"
+      },
+      {
+        "name": "Test Data Generation",
+        "status": "PASS",
+        "message": "Generated 4 login, 2 reg, 1 checkout records"
+      },
+      {
+        "name": "Data File Support",
+        "status": "PASS",
+        "message": "Supports 6 data file operations"
+      }
+    ],
+    "configuration": [
+      {
+        "name": "ConfigReader Class",
+        "status": "PASS",
+        "message": "ConfigReader imported and instantiated"
+      },
+      {
+        "name": "Configuration Values",
+        "status": "PASS",
+        "message": "URL: https://demo.opencart.com/, Browser: brave, Headless: False"
+      },
+      {
+        "name": "Credentials",
+        "status": "PASS",
+        "message": "Valid and invalid credentials configured"
+      }
+    ],
+    "utilities": [
+      {
+        "name": "WaitUtils Class",
+        "status": "PASS",
+        "message": "WaitUtils imported successfully"
+      },
+      {
+        "name": "ScreenshotUtils Class",
+        "status": "PASS",
+        "message": "ScreenshotUtils imported successfully"
+      },
+      {
+        "name": "DriverManager Class",
+        "status": "PASS",
+        "message": "DriverManager imported successfully"
+      }
+    ],
+    "test_data": [
+      {
+        "name": "Sample Test Data File",
+        "status": "PASS",
+        "message": "sample_test_data.py exists"
+      },
+      {
+        "name": "Excel Test Data File",
+        "status": "PASS",
+        "message": "test_data.xlsx exists"
+      },
+      {
+        "name": "Test Data Content",
+        "status": "PASS",
+        "message": "Registration: 6 records, Checkout: 3 records"
+      }
+    ],
+    "reporting": [
+      {
+        "name": "Report Directories",
+        "status": "PASS",
+        "message": "HTML and Allure report directories exist"
+      },
+      {
+        "name": "Pytest Configuration",
+        "status": "PASS",
+        "message": "pytest.ini configured for HTML and Allure reports"
+      },
+      {
+        "name": "Test Runner Script",
+        "status": "PASS",
+        "message": "run_tests.py exists"
+      }
+    ],
+    "error_handling": [
+      {
+        "name": "Screenshot on Failure",
+        "status": "PASS",
+        "message": "ScreenshotUtils has 7 screenshot methods"
+      },
+      {
+        "name": "Logging",
+        "status": "PASS",
+        "message": "Loguru logging working"
+      },
+      {
+        "name": "Exception Handling",
+        "status": "FAIL",
+        "message": "No error handling methods found"
+      }
+    ],
+    "webdriver_issues": [
+      {
+        "name": "WebDriver Hanging",
+        "status": "FAIL",
+        "message": "WebDriver initialization hangs - needs investigation"
+      },
+      {
+        "name": "Browser Compatibility",
+        "status": "PASS",
+        "message": "Supports brave browser"
+      },
+      {
+        "name": "WebDriverManager",
+        "status": "PASS",
+        "message": "WebDriverManager available"
+      }
+    ]
+  }
+}
