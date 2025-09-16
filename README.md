@@ -19,25 +19,6 @@ python run_tests.py --suite smoke --browser firefox
 # (iii) Run in headless mode
 python run_tests.py --suite smoke --headless
 
-## Project Structure
-
-ecommerce_automation_framework/
-├── config/                     # Configuration files
-│   └── config.ini             # Main configuration
-├── tests/                      # Test implementation
-│   ├── pages/                 # Page Object Model
-│   ├── testcases/             # Test cases
-│   ├── data/                  # Test data
-│   └── reports/               # Test reports
-├── utils/                     # Utility classes
-│   ├── driver_manager.py
-│   ├── config_reader.py
-│   └── ...
-├── requirements.txt           # Dependencies
-├── install.py                 # Installation script
-├── run_tests.py              # Test runner
-└── README.md                 # This file
-
 
 ## Configuration
 
